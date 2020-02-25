@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('img/anton-darius-ebHCU8n7G38-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: none;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    padding: 14px 16px;
+    padding-bottom: 160px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: none;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: none;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.image3 a {
+    display: grid;
+}
+
+.image3 {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.image3 {
+    text-align: center;
+    padding: 50px;
+    grid-gap: 2%;
+    margin-top: 120px;
+    display: grid;
+
+}
+
+#sky1 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky2 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky3 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.imgs {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image3 a > * {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: center;
+}
+
+.img-des {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-des {
+    text-align: center;
+    grid-gap: 2%;
+    margin-top: 12%;
+    margin-bottom: 75px;
+    padding: 50px;
+}
+
+.img-subcountry {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-subcountry {
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 0 auto;
+    margin-bottom: 75px;
+    text-decoration: none;
+}
+
+.Norway_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+.Denmark_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+.Poland_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+p {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Josefin Slab';
+    color: white;
+    font-size: 20px;
+}
+
+h3 {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Josefin Slab';
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: #1E514A;
+    color: white;
+    text-align: left;
+
+}
+
+.icons {
+    padding: 40px;
+    margin: 0px;
+}
+
+.icon {
+    max-width: 3%;
+    padding-left: 10px;
+}
+
+
+.logo {
+    max-width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+h {
+    font-size: 80px;
+    font-family: 'Signika Negative';
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Josefin Slab';
+    color: white;
+    margin-left: 50px;
+    text-shadow: 1px 1px black;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Josefin Slab';
+    /*    margin-left: 50px;*/
+    font-family: 'Josefin Sans';
+    margin-left: 50px;
+    text-shadow: 1px 1px black;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.main-euro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin: 0 1rem;
+}
+
+.main-euro > h1 {
+    grid-column: 1/-1;
+}
+
+.country {
+    display: grid;
+    position: relative;
+    background-size: cover;
+    background-color: #D3FEDD;
+    margin-top: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.euro-img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.main-euro {
+    margin-bottom: 75px;
+}
+
+.head {
+    text-align: center;
+}
+
+.euro-p {
+    text-align: center;
+}
+.ttipstext {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 5%;
+    margin-left: 50px;
+    margin-right: 10%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-left: 50px;
+}
+
+.img-dominika {
+    width: 100%;
+}
+
+.img-alexander {
+    width: 100%;
+}
+
+.img-dung {
+    width: 100%;
+}
